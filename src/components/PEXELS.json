@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Leather Backpack",
+    "description": "A premium everyday carry backpack for work and travel.",
+    "price": 120,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Classic Watch",
+    "description": "Elegant timepiece with a minimalist stainless steel design.",
+    "price": 180,
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Desk Lamp",
+    "description": "Soft ambient lighting for a productive desk setup.",
+    "price": 65,
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Wireless Speaker",
+    "description": "Crisp, portable sound with deep bass and rich clarity.",
+    "price": 95,
+    "image": "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Running Shoes",
+    "description": "Lightweight trainers built for comfort and everyday movement.",
+    "price": 140,
+    "image": "https://images.unsplash.com/photo-1543508282-6319a3e2621f?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Travel Mug",
+    "description": "Double-walled insulated mug for coffee on the go.",
+    "price": 36,
+    "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=80"
+  }
+]
