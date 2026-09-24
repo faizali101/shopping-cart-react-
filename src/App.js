@@ -3,16 +3,18 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { toast, ToastContainer } from 'react-toastify';
+import { FaSun, FaMoon } from 'react-icons/fa';
 import products from './components/PEXELS.json';
 import BuyPage from './components/buyPage';
 
 function App() {
   const [cartItem, setCartItem] = useState([]);
+  const [darkMode, setDarkMode] = useState(false);
 
   const addInCart = item => {
-    // const isAlreadyAdded = cartItem.some(product => product.id === item.id);
+    const isAlreadyAdded = cartItem.some(product => product.id === item.id);
 
-    if (cartItem.some(product => product.id === item.id)) {
+    if (isAlreadyAdded) {
       toast('already added in the cart', {
         type: 'error',
       });
@@ -46,7 +48,18 @@ function App() {
   const cartTotal = cartItem.reduce((total, item) => total + Number(item.price), 0);
 
   return (
-    <div className="App">
+    <div className={darkMode ? 'App dark-mode' : 'App light-mode'}>
+      <div className="topbar">
+        <button
+          className="theme-toggle"
+          onClick={() => setDarkMode(!darkMode)}
+          aria-label="Toggle dark mode"
+          title="Toggle dark mode"
+        >
+          {darkMode ? <FaSun /> : <FaMoon />}
+        </button>
+      </div>
+
       <div className="container py-4">
         <div className="row g-4 align-items-start">
           <div className="col-lg-8">

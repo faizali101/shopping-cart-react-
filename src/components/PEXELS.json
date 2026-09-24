@@ -40,5 +40,12 @@
     "description": "Double-walled insulated mug for coffee on the go.",
     "price": 36,
     "image": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=900&q=80"
+  },
+  {
+    "id": 7,
+    "name": "iPhone Case",
+    "description": "Transparent iPhone 18 Pro Max Case",
+    "price": 25,
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80"
   }
 ]
